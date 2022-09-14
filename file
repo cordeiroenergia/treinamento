@@ -1,3 +1,149 @@
 sdjkadas[]
 
 Matheus teste
+
+historico de comandos da reuinão de git + github
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ git clone git@github.com:cordeiroenergia/treinamento.git
+Cloning into 'treinamento'...
+Enter passphrase for key '/c/Users/matheus.rocha/.ssh/id_ed25519': 
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 14 (delta 0), reused 11 (delta 0), pack-reused 0     
+Receiving objects: 100% (14/14), done.
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ git init
+Initialized empty Git repository in C:/Users/matheus.rocha/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/.git/  
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ git brench
+git: 'brench' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ git branch
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ git branch matheus teste
+fatal: not a valid object name: 'teste'
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ git branch matheus
+fatal: not a valid object name: 'master'
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ git branch matheus
+fatal: not a valid object name: 'master'
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ ls
+treinamento/
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste (master)
+$ cd treinamento
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (main)
+$ git branch matheus
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (main)
+$ git branch
+* main
+  matheus
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (main)
+$ git checkout matheus
+Switched to branch 'matheus'
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git add .
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git commit -m"testematheus"
+[matheus 56de1d5] testematheus
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git push
+fatal: The current branch matheus has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin matheus
+
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git push --set-upstream origin matheus
+Enter passphrase for key '/c/Users/matheus.rocha/.ssh/id_ed25519': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'matheus' on GitHub by visiting:
+remote:      https://github.com/cordeiroenergia/treinamento/pull/new/matheus     
+remote:
+To github.com:cordeiroenergia/treinamento.git
+ * [new branch]      matheus -> matheus
+branch 'matheus' set up to track 'origin/matheus'.
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ [12:11] Lucas Issayama
+bash: [12:11]: command not found
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git remote add upstream https://github.com/cordeiroenergia/treinamento
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git fetch upstream
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 11 (delta 2), reused 11 (delta 2), pack-reused 0
+Unpacking objects: 100% (11/11), 863 bytes | 21.00 KiB/s, done.
+From https://github.com/cordeiroenergia/treinamento
+ * [new branch]      guiTeste   -> upstream/guiTeste
+ * [new branch]      lucas      -> upstream/lucas
+ * [new branch]      main       -> upstream/main
+ * [new branch]      matheus    -> upstream/matheus
+ * [new branch]      renan      -> upstream/renan
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git brench
+git: 'brench' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git branch 
+  main
+* matheus
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$ git checkout renan
+Switched to a new branch 'renan'
+branch 'renan' set up to track 'upstream/renan'.
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (renan)
+$ git checkout matheus
+Switched to branch 'matheus'
+Your branch is up to date with 'origin/matheus'.
+
+matheus.rocha@MATHEUSROCHA MINGW64 ~/OneDrive - Cordeiro Cabos Eletricos S A/Área de Trabalho/testeteste/treinamento (matheus)
+$
